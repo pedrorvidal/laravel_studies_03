@@ -17,7 +17,6 @@
     <h1>Texto topo layout</h1>
 
     @yield('content')
-
     <h1>Texto bottom layout</h1>
 
     <hr>

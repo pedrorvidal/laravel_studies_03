@@ -1,7 +1,5 @@
 @extends('layouts.main_layout')
 
-@section('page_title', 'Home Page')
-
 @section('content')
-    <p>Content</p>
+    <h3>Este texto faz parte da view</h3>
 @endsection
