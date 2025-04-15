@@ -4,4 +4,9 @@
 
     {{-- renderizar o component --}}
     <x-my-component />
+
+    {{-- renderizar component dentro de subpasta --}}
+    <x-admin.admin-card />
+
+    <h3>Este texto faz parte da view</h3>
 @endsection
