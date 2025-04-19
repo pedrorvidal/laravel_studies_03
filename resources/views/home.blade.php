@@ -1,5 +1,19 @@
 @extends('layouts.main_layout')
 @section('content')
+    <h4>Componente anônimo:</h4>
+
+    <x-alert-card>
+        Primeira mensagem
+    </x-alert-card>
+
+    <x-alert-card>
+        Segunda mensagem
+    </x-alert-card>
+
+    <x-alert-card>
+        Terceira mensagem
+    </x-alert-card>
+
     {{--<div class="text-center">--}}
     {{--    @foreach ($pessoas_linguas as $pessoa => $linguas)--}}
     {{--        {{--component--}}
@@ -18,15 +32,15 @@
     {{--        </x-other-card>--}}
     {{--    </div>--}}
     {{--</div>--}}
-    <x-multi-slot>
-        <x-slot:title>
-            Este é o título
-        </x-slot>
-        <x-slot:content>
-            Este é o content
-        </x-slot>
-        <x-slot:footer>
-            Este é o footer
-        </x-slot>
-    </x-multi-slot>
+    {{--<x-multi-slot>--}}
+    {{--    <x-slot:title>--}}
+    {{--        Este é o título--}}
+    {{--    </x-slot>--}}
+    {{--    <x-slot:content>--}}
+    {{--        Este é o content--}}
+    {{--    </x-slot>--}}
+    {{--    <x-slot:footer>--}}
+    {{--        Este é o footer--}}
+    {{--    </x-slot>--}}
+    {{--</x-multi-slot>--}}
 @endsection
