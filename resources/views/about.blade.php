@@ -1,9 +1,9 @@
 
 <x-component-layout>
     <x-slot:title>
-        HOME
+        ABOUT
     </x-slot:title>
 
-    <h1>Home</h1>
+    <h1>About</h1>
 
 </x-component-layout>
